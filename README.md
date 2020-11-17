@@ -26,7 +26,7 @@ Plugin UPC e-Commerce Connect for Joomla
 
 1.7 После того как вы нашли установленный вами только что плагин, ставим против его названия «галочку» и жмем сверху на кнопку «Включить». Или жмем напротив названия плагина, на красный крестик и он должен изменится на зеленную галочку. Это означает что плагин включен.
 
-1.8	Ключи нужно залить в папку «**************» в корневом каталоге сайта
+1.8	Ключи нужно залить в папку «\joomla\plugins\j2store\payment_ecc\payment_ecc\data\keys» в корневом каталоге сайта
  
 
 
@@ -47,7 +47,7 @@ J2Store -> Setup -> Payment Methods -> eCommerceConnect
  
 4. Для настройки SUCCESS_URL и NOTIFY_URL зайдите в личный кабинет своего мерчанта на страницу настройки терминала
 
-И в поле SUCCESS_URL подставьте *************
-В поле NOTIFY_URL подставьте                               ***************** и 
-в поле Відмінити транзакцію після неуспішної доставки повідомлення на NOTIFY_URL Включите статус ТАК
+И в поле SUCCESS_URL подставьте http://YOURSITE.COM/index.php/component/j2store/checkout/confirmPayment?orderpayment_type=payment_ecc&paction=display
+В поле NOTIFY_URL подставьте                               http://YOURSITE.COM/index.php?option=com_j2store&view=checkout&task=confirmPayment&
+ 
 
