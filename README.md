@@ -39,3 +39,16 @@ J2Store -> Setup -> Payment Methods -> eCommerceConnect
 Здесь вы должны ввести Merchant ID и Terminal ID которые получили от нас.
  
 
+
+
+3.	Для проверки корректности установки и настройки плагина, проведите пробную покупку.
+
+После выбора способа оплаты банковской картой «eCommerceConnect» будет открыта платежная страница:
+
+ 
+4. Для настройки SUCCESS_URL и NOTIFY_URL зайдите в личный кабинет своего мерчанта на страницу настройки терминала
+
+И в поле SUCCESS_URL подставьте YOURSITE.COM/index.php/component/j2store/checkout/confirmPayment?orderpayment_type=payment_ecc&paction=display
+В поле NOTIFY_URL подставьте                               YOURSITE.COM/index.php?option=com_j2store&view=checkout&task=confirmPayment&orderpayment_type=payment_ecc и в поле Відмінити транзакцію після неуспішної доставки повідомлення на NOTIFY_URL Включите статус ТАК
+
+
